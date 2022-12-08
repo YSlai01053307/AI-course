@@ -1,9 +1,9 @@
-title: AI course
-tagline: Deep Learning Lecture
+title: AI project
+tagline: Capstone project 
 
 author:
-  name: Richard Kuo
-  url: https://www.facebook.com/richard.kuo.168
+  name: Yu-Xin, Lai
+  url: https://www.facebook.com/yuxin
 
 plugins:
   - jekyll-feed
