@@ -11,6 +11,8 @@ Pose Estimation includes Applications, Body Pose, Head Pose, Hand Pose , Object 
 ---
 
 ---
+小組組員:1人
+手寫字辨識
 ### Pose Recognition (姿態辨識)
 
 **專題實作步驟:**
