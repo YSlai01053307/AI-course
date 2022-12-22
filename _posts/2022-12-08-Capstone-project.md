@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pose Estimation
-author: [Richard Kuo]
+title: Capstone project
+author: [Yu-shin, Lai]
 category: [Lecture]
 tags: [jekyll, ai]
 ---
