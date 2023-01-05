@@ -11,7 +11,8 @@ Pose Estimation includes Applications, Body Pose, Head Pose, Hand Pose , Object 
 ---
 
 ---
-小組組員:1人
+⼈⼯智慧與物聯網裝置設計 期末專題
+小組組員:電機4A 01053307 賴昱新
 手寫字辨識
 ### Pose Recognition (姿態辨識)
 
