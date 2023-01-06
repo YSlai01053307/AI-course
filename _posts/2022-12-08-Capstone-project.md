@@ -24,7 +24,7 @@ tags: [jekyll, ai]
     
     -安裝AirDigit於手機(本專題使用安卓)
     
-2.使用AirDigit App紀錄手勢動作以建立資料集
+2. 使用AirDigit App紀錄手勢動作以建立資料集
 
     -進行資料集取樣
     
