@@ -44,6 +44,15 @@ tags: [jekyll, ai]
 
     -Kaggle 上執行 Airdigit-Classification 進行模型訓練
     
+    **程式Kaggle:**[yuxin01053307/airdigit-classification](https://www.kaggle.com/code/yuxin01053307/airdigit-classification)
+
+    ** 檢查tensorflow版本, 並安裝與kaggle平台相同之tensorflow版本**<br>
+    `python -c 'import tensorflow as tf; print(tf.__version__)'`<br />
+    `pip install tensorflow==2.8.0` (安裝與kaggle相同之tensorflow版本)<br />
+
+    ![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/1.png?raw=true)
+
+    
     -將程式執行結果 (Output) 的 airdigit_cnn.h5 模型檔，下載至電腦
     
     -把 airdigit_cnn.h5 檔案移至 tf/models 資料夾
@@ -58,12 +67,5 @@ tags: [jekyll, ai]
    
    -按取樣上傳錄取動作資料並上傳至辨識服務器，然後回傳辨識結果
     
-**程式Kaggle:**[yuxin01053307/airdigit-classification](https://www.kaggle.com/code/yuxin01053307/airdigit-classification)
-
-** 檢查tensorflow版本, 並安裝與kaggle平台相同之tensorflow版本**<br>
-`python -c 'import tensorflow as tf; print(tf.__version__)'`<br />
-`pip install tensorflow==2.8.0` (安裝與kaggle相同之tensorflow版本)<br />
-
-![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/1.png?raw=true)
 
 
