@@ -30,10 +30,13 @@ tags: [jekyll, ai]
     
     -輸出AirDigit.zip至Kaggle Datatsets
     
-3. 始用**MMPose** 辨識出照片中的各姿勢之身體關鍵點 (use MMPose convert 16 keypoints (x,y) of each pose)<br>
-4. 產生姿態關鍵點資料集 x_train.append(pose_keypoints) ( x_train.shape = (20x5, 16, 2), y_train.shape= (20x5, 1) )<br>
-5. 建立DNN模型並訓練模型, 然後下載模型檔`pose_dnn.h5`至PC <br>
-6. 於PC建立帶camera輸入之服務器程式, 載入模型`pose_dnn.h5`進行姿態動作辨識 <br>
+3. 於Kaggle平台使用資料集訓練AI模型
+
+    -Kaggle上執行Airdigit-Classification進行模型訓練
+
+5. 產生姿態關鍵點資料集 x_train.append(pose_keypoints) ( x_train.shape = (20x5, 16, 2), y_train.shape= (20x5, 1) )<br>
+6. 建立DNN模型並訓練模型, 然後下載模型檔`pose_dnn.h5`至PC <br>
+7. 於PC建立帶camera輸入之服務器程式, 載入模型`pose_dnn.h5`進行姿態動作辨識 <br>
 
 **模型建構與訓練之程式樣本** (PC or Kaggle)<br>
 
