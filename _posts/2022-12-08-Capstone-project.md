@@ -13,15 +13,21 @@ tags: [jekyll, ai]
 ---
 ⼈⼯智慧與物聯網裝置設計 期末專題
 小組組員:電機4A 01053307 賴昱新
-手寫字辨識
-### Pose Recognition (姿態辨識)
+
+### AirDigit Recognition (手機手勢控制)
+
 
 **專題實作步驟:**
-1. 建立身體動作之姿態照片資料集 (例如：5 poses , take 20 pictures of each pose)<br>
-2. 始用**MMPose** 辨識出照片中的各姿勢之身體關鍵點 (use MMPose convert 16 keypoints (x,y) of each pose)<br>
-3. 產生姿態關鍵點資料集 x_train.append(pose_keypoints) ( x_train.shape = (20x5, 16, 2), y_train.shape= (20x5, 1) )<br>
-4. 建立DNN模型並訓練模型, 然後下載模型檔`pose_dnn.h5`至PC <br>
-5. 於PC建立帶camera輸入之服務器程式, 載入模型`pose_dnn.h5`進行姿態動作辨識 <br>
+1. 開發 AirDigit手機應用程式
+    -在 MIT APP INVENTOR 進行APP開發
+    -安裝AirDigit於手機(本專題使用安卓)
+2.使用AirDigit App紀錄手勢動作以建立資料集
+    -進行資料集取樣
+    -輸出AirDigit.zip至Kaggle Datatsets
+3. 始用**MMPose** 辨識出照片中的各姿勢之身體關鍵點 (use MMPose convert 16 keypoints (x,y) of each pose)<br>
+4. 產生姿態關鍵點資料集 x_train.append(pose_keypoints) ( x_train.shape = (20x5, 16, 2), y_train.shape= (20x5, 1) )<br>
+5. 建立DNN模型並訓練模型, 然後下載模型檔`pose_dnn.h5`至PC <br>
+6. 於PC建立帶camera輸入之服務器程式, 載入模型`pose_dnn.h5`進行姿態動作辨識 <br>
 
 **模型建構與訓練之程式樣本** (PC or Kaggle)<br>
 
