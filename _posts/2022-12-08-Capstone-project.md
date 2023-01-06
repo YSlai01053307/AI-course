@@ -48,7 +48,7 @@ tags: [jekyll, ai]
    
    -設定好檔案名稱及時間，按取樣上傳錄取動作資料並上傳至辨識服務器，然後回傳辨
     識結果
-
+**程式Kaggle:**[yuxin01053307/airdigit-classification](https://www.kaggle.com/code/yuxin01053307/airdigit-classification)
 ** 檢查tensorflow版本, 並安裝與kaggle平台相同之tensorflow版本**<br>
 `$ python -c 'import tensorflow as tf; print(tf.__version__)'`<br />
 `$ pip install tensorflow==2.8.0` (安裝與kaggle相同之tensorflow版本)<br />
