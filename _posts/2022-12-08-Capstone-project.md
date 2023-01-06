@@ -53,8 +53,7 @@ tags: [jekyll, ai]
    
    -打開 AirDigit App
    
-   -設定好檔案名稱及時間，按取樣上傳錄取動作資料並上傳至辨識服務器，然後回傳辨
-    識結果
+   -按取樣上傳錄取動作資料並上傳至辨識服務器，然後回傳辨識結果
     
 **程式Kaggle:**[yuxin01053307/airdigit-classification](https://www.kaggle.com/code/yuxin01053307/airdigit-classification)
 
