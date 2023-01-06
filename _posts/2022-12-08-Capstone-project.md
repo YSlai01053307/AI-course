@@ -46,12 +46,10 @@ tags: [jekyll, ai]
    
    -打開 AirDigit App
    
-   -設定好檔案名稱及時間，按取樣上傳錄取動作資料並上傳至辨識服務器, 然後回傳辨
+   -設定好檔案名稱及時間，按取樣上傳錄取動作資料並上傳至辨識服務器，然後回傳辨
     識結果
-   
-**模型建構與訓練之程式樣本** (PC or Kaggle)<br>
 
-** 檢查tensorflow版本, 並安裝與kaggle平台相同之tensorflow版本**<br />
+** 檢查tensorflow版本, 並安裝與kaggle平台相同之tensorflow版本**<br>
 `$ python -c 'import tensorflow as tf; print(tf.__version__)'`<br />
 `$ pip install tensorflow`==2.6.2 (安裝與kaggle相同之tensorflow版本)<br />
 
