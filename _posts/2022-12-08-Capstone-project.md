@@ -55,6 +55,8 @@ tags: [jekyll, ai]
 `python -c 'import tensorflow as tf; print(tf.__version__)'`<br />
 `pip install tensorflow==2.8.0` (安裝與kaggle相同之tensorflow版本)<br />
 
+![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/1.png?raw=true)
+
 **姿態辨識服務器之程式樣本** (PC with Camera)<br>
 
 ```
