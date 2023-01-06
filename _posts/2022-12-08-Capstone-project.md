@@ -28,11 +28,15 @@ tags: [jekyll, ai]
 
     -進行資料集取樣
     
-    -輸出AirDigit.zip至Kaggle Datatsets
+    -將檔案AirDigit.zip上傳至Kaggle Datatsets
     
 3. 於Kaggle平台使用資料集訓練AI模型
 
     -Kaggle上執行Airdigit-Classification進行模型訓練
+    
+    -將程式執行結果(Output)的airdigit_cnn.h5模型檔，下載至電腦
+    
+    -把airdigit_cnn.h5檔案移至tf/models資料夾
 
 5. 產生姿態關鍵點資料集 x_train.append(pose_keypoints) ( x_train.shape = (20x5, 16, 2), y_train.shape= (20x5, 1) )<br>
 6. 建立DNN模型並訓練模型, 然後下載模型檔`pose_dnn.h5`至PC <br>
