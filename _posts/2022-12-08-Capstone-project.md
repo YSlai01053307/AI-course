@@ -24,7 +24,7 @@ tags: [jekyll, ai]
     
     -安裝 AirDigit 於手機(本專題使用安卓)
     
-    ![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/3.jpg?raw=true)
+    ![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/4.jpg?raw=true)
     
 2. 使用 AirDigit App 紀錄手勢動作以建立資料集
 
