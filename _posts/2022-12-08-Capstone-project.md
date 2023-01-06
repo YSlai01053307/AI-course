@@ -46,24 +46,13 @@ tags: [jekyll, ai]
    
    -打開 AirDigit App
    
-   -設定好檔案名稱及時間，按取樣上傳錄取動作資料並上傳至辨識服務器, 然後回傳辨識結果
+   -設定好檔案名稱及時間，按取樣上傳錄取動作資料並上傳至辨識服務器, 然後回傳 辨識結果
    
 **模型建構與訓練之程式樣本** (PC or Kaggle)<br>
 
-```
-input_shape=(16,2)
-num_classes=5
-
-inputs = layers.Input(shape=input_shape)
-x = layers.Dense(128)(inputs)
-outputs = layers.Dense(num_classes, activation="softmax")(x)
-model = models.Model(inputs=inputs, outputs=outputs)
-
-models.compile(loss = 'categorical_crossentropy', optimizer = 'adam' , metrics = ['accuracy'])
-
-history = model.fit(x_train, y_train, batch_size=1, epochs=20, validation_data=(x_test, y_test))
-models.save_model(model, 'pose_dnn.h5')
-```
+** 檢查tensorflow版本, 並安裝與kaggle平台相同之tensorflow版本**<br />
+`$ python -c 'import tensorflow as tf; print(tf.__version__)'`<br />
+`$ pip install tensorflow`==2.6.2 (安裝與kaggle相同之tensorflow版本)<br />
 
 **姿態辨識服務器之程式樣本** (PC with Camera)<br>
 
