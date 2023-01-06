@@ -70,5 +70,5 @@ tags: [jekyll, ai]
 
 **成果:**
 
-![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/5.jpg?raw=true)
+![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/11.jpg?raw=true)
 ![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/10.jpg?raw=true)
