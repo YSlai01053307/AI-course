@@ -14,7 +14,7 @@ tags: [jekyll, ai]
 ⼈⼯智慧與物聯網裝置設計 期末專題
 小組組員:電機4A 01053307 賴昱新
 
-### AirDigit Recognition (手機手勢控制)
+### AirDigit Recognition (手機手勢辨識)
 
 
 **專題實作步驟:**
