@@ -19,11 +19,17 @@ tags: [jekyll, ai]
 
 **專題實作步驟:**
 1. 開發 AirDigit手機應用程式
+
     -在 MIT APP INVENTOR 進行APP開發
+    
     -安裝AirDigit於手機(本專題使用安卓)
+    
 2.使用AirDigit App紀錄手勢動作以建立資料集
+
     -進行資料集取樣
+    
     -輸出AirDigit.zip至Kaggle Datatsets
+    
 3. 始用**MMPose** 辨識出照片中的各姿勢之身體關鍵點 (use MMPose convert 16 keypoints (x,y) of each pose)<br>
 4. 產生姿態關鍵點資料集 x_train.append(pose_keypoints) ( x_train.shape = (20x5, 16, 2), y_train.shape= (20x5, 1) )<br>
 5. 建立DNN模型並訓練模型, 然後下載模型檔`pose_dnn.h5`至PC <br>
