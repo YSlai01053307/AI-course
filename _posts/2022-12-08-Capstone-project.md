@@ -51,7 +51,7 @@ tags: [jekyll, ai]
 
 ** 檢查tensorflow版本, 並安裝與kaggle平台相同之tensorflow版本**<br>
 `$ python -c 'import tensorflow as tf; print(tf.__version__)'`<br />
-`$ pip install tensorflow`==2.6.2 (安裝與kaggle相同之tensorflow版本)<br />
+`$ pip install tensorflow==2.8.0` (安裝與kaggle相同之tensorflow版本)<br />
 
 **姿態辨識服務器之程式樣本** (PC with Camera)<br>
 
