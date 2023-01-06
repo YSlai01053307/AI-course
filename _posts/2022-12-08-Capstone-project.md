@@ -34,7 +34,7 @@ tags: [jekyll, ai]
     
     ![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/2.png?raw=true)
     
-    (Train: 0~10 各20筆訓練資料。Test: 0~10 各2筆訓練資料)
+    (Train:0~10，各20筆訓練資料。Test:0~10，各2筆訓練資料)
     
 3. 於Kaggle 平台使用資料集訓練 AI 模型
 
