@@ -38,11 +38,16 @@ tags: [jekyll, ai]
     
     -把 airdigit_cnn.h5 檔案移至 tf/models 資料夾
     
-4. 打開Anaconda3
-  
-  -安裝環境，執行 python airdigit_cnn.py
+4. 於電腦上開啟 AI 辨識服務器
 
-5. 
+    -打開 Anaconda3 安裝環境，執行 python airdigit_cnn.py
+
+5. 進行手勢動作辨識
+   
+   -打開 AirDigit App
+   
+   -設定好檔案名稱及時間，按取樣上傳錄取動作資料並上傳至辨識服務器, 然後回傳辨識結果
+   
 **模型建構與訓練之程式樣本** (PC or Kaggle)<br>
 
 ```
