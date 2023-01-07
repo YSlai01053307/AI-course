@@ -24,7 +24,7 @@ tags: [jekyll, ai]
 
 ---
 
-**專題實作步驟:**
+## 專題實作步驟:
 1. 開發 AirDigit 手機應用程式
 
     -在 MIT APP INVENTOR 進行 APP 開發
