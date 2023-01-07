@@ -100,7 +100,7 @@ tags: [jekyll, ai]
 
 `labels = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'none']` //設0~9&10(none)的標籤
 
-`model = models.load_model('models/airdigit_cnn.h5')`
+`model = models.load_model('models/airdigit_cnn.h5')` //引用tf/models資料夾裡kaggle訓練結果output(.h5檔)
 	
 `@app.route("/", methods=["GET"])`
 
@@ -134,13 +134,13 @@ tags: [jekyll, ai]
    
     pred = np.argmax(preds) # find maximum probility
     
-    print(pred, labels[pred])
+    print(pred, labels[pred]) //印出辨識出來的結果
     
     return labels[pred]
 
 `if __name__ == "__main__":`
 
-    `app.run(host="0.0.0.0", port=5000, debug=True)`
+    app.run(host="0.0.0.0", port=5000, debug=True)
 
 
 **成果:**
