@@ -147,3 +147,7 @@ tags: [jekyll, ai]
 
 ![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/11.jpg?raw=true)
 ![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/10.jpg?raw=true)
+
+## 心得&結論:
+
+我在想或許可以將這個實作應用於打電話，但好像有點麻煩。我另外又想到也許手機可以設定當你畫出某個數字時，想要啟動什麼服務，比如說0:播音樂，1:打開相機之類的。目前有看過三星的 S Pen，有應用這種空中手勢操作的概念，但原理可能不盡相同。
