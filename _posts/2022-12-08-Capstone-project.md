@@ -78,6 +78,7 @@ tags: [jekyll, ai]
    
    -按取樣上傳錄取動作資料並上傳至辨識服務器，然後回傳辨識結果
     
+ ![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/圖片1.png?raw=true)
 
 **成果:**
 
