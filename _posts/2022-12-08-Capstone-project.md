@@ -85,14 +85,18 @@ tags: [jekyll, ai]
 (airdigit_cnn.py)
 
 `# for AirDigit Recognizer App`
+
 `# $./ngork http 5000` 
-`import pandas as pd`
-import numpy as np
-from flask import Flask, request, jsonify
 
-from tensorflow.keras import models
+`import pandas as pd` //引用panda
 
-app = Flask(__name__)
+`import numpy as np`  //引用numpy
+
+`from flask import Flask, request, jsonify` //記得要另外 pip install flask
+ 
+`from tensorflow.keras import models`
+
+`app = Flask(__name__)`
 
 labels = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'none']
 model = models.load_model('models/airdigit_cnn.h5')
