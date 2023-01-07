@@ -4,6 +4,13 @@ title: Capstone project
 author: [Yu-Xin, Lai]
 category: [Lecture]
 tags: [jekyll, ai]
+
+⼈⼯智慧與物聯網裝置設計 期末專題
+
+小組組員:電機4A 01053307 賴昱新
+
+### AirDigit Recognition (手機手勢辨識)
+
 ---
 
 以手機所錄取之手勢動作資料上傳至 Kaggle 平台訓練 AI 模型後，交由電腦啟動辨識服務器，再以 AirDigit App傳送手勢動作之資料至電腦進行辨識。
@@ -15,11 +22,6 @@ tags: [jekyll, ai]
 再交由電腦執行辨識服務器程式，且輸入電腦所判別的服務器工作阜至 App 的 URL 位置，之後打開空中手寫數字App， 傳送動作資料至PC進行辨識，並回覆數字顯示於App上。
 
 ---
-⼈⼯智慧與物聯網裝置設計 期末專題
-
-小組組員:電機4A 01053307 賴昱新
-
-### AirDigit Recognition (手機手勢辨識)
 
 **專題實作步驟:**
 1. 開發 AirDigit 手機應用程式
