@@ -98,14 +98,18 @@ tags: [jekyll, ai]
 
 `app = Flask(__name__)`
 
-labels = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'none']
-model = models.load_model('models/airdigit_cnn.h5')
+`labels = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'none']` //設0~9&10(none)的標籤
+
+`model = models.load_model('models/airdigit_cnn.h5')`
 	
-@app.route("/", methods=["GET"])
-def hell():
-    return "Hello!"
+`@app.route("/", methods=["GET"])`
+
+`def hell():
+
+    return "Hello!"`
 	
-@app.route("/predict", methods=["POST"])	
+`@app.route("/predict", methods=["POST"])`
+
 def predict():
     keys = request.form.to_dict().keys()
     data = list(keys)[0][:-1].split(',')
