@@ -23,7 +23,7 @@ tags: [jekyll, ai]
 
     -在 MIT APP INVENTOR 進行 APP 開發
     
-    -安裝 AirDigit 於手機(本專題使用安卓)
+    -安裝 AirDigit 於手機(本專題使用安卓手機)
     
     ![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/4.jpg?raw=true)
     
@@ -38,7 +38,12 @@ tags: [jekyll, ai]
     ![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/2.png?raw=true)
     
     **Train: 0~10 各20筆訓練資料**<br /> 
+    
+    ![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/13.png?raw=true)
+    
     **Test: 0~10 各2筆訓練資料**<br />
+    
+    ![](https://github.com/YSlai01053307/AI-course/blob/gh-pages/12.png?raw=true)
     
 3. 於Kaggle 平台使用資料集訓練 AI 模型
 
