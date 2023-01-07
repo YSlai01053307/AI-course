@@ -4,6 +4,7 @@ title: Capstone project
 author: [Yu-Xin, Lai]
 category: [Lecture]
 tags: [jekyll, ai]
+---
 
 ⼈⼯智慧與物聯網裝置設計 期末專題
 
